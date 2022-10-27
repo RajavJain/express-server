@@ -1,4 +1,4 @@
-const express= require("express");//imports the package required for express
+const express= require("express");//it imports the package required for express
 const path= require("path");// ye sendFile method mai jo file ka path read krne mai help krega.
 const bodyParser=require("body-parser")// ye install krna pda npm i body-parser se and ye hame form ka result console mai dikhane mai madad kre ga
 
