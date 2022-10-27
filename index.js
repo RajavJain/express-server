@@ -1,8 +1,8 @@
-const express= require("express");
+const express= require("express");//imports the package required for express
 const path= require("path");// ye sendFile method mai jo file ka path read krne mai help krega.
 const bodyParser=require("body-parser")// ye install krna pda npm i body-parser se and ye hame form ka result console mai dikhane mai madad kre ga
 
-const router=require("./userRoutes");
+const router=require("./userRoutes");//imported from react-router-dom
 const app=express();//let assume kr liya hai taki baar baar express().get and all na likhna pde
 const port=2000;
 
